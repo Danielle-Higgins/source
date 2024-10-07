@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Source Layout Practice</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <!-- Header -->
+      <header class="navbar">
+        <div class="logo">
+          <h1>Source</h1>
+        </div>
+
+        <nav class="main-menu">
+          <ul>
+            <li><a href="#">First link</a></li>
+            <li><a href="#">Second link</a></li>
+            <li><a href="#">Third link</a></li>
+            <li><a href="#">Fourth link</a></li>
+          </ul>
+        </nav>
+
+        <a href="#" class="btn">Button</a>
+
+        <!-- Hamburger Menu -->
+        <i class="fa-solid fa-bars hamburger-btn"></i>
+        <nav class="mobile-menu">
+          <ul>
+            <li><a href="#">First link</a></li>
+            <li><a href="#">Second link</a></li>
+            <li><a href="#">Third link</a></li>
+            <li><a href="#">Fourth link</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Hero -->
+      <section class="hero">
+        <div class="hero-content">
+          <div class="tagline">
+            <span>Tagline</span>
+          </div>
+          <h1>Source helps creators do more of what they love</h1>
+          <form action="">
+            <input type="text" placeholder="Placeholder" /><button
+              type="button"
+              class="btn"
+            >
+              Button
+            </button>
+          </form>
+          <p>
+            A device that enables collaboration will lessen the chance of work
+            having to be completely redone.
+          </p>
+        </div>
+
+        <div class="hero-img">
+          <img src="./img/devices.png" alt="devices" />
+        </div>
+      </section>
+
+      <!-- Features -->
+      <section class="features">
+        <div class="container">
+          <div class="feature">
+            <i class="fa-solid fa-circle-radiation"></i>
+            <h2>Feature one</h2>
+            <p>
+              In such a test, the user performs realistic tasks by interacting
+              with the paper prototype
+            </p>
+            <a href="#">First link <i class="fa-solid fa-greater-than"></i></a>
+          </div>
+
+          <div class="feature">
+            <i class="fa-regular fa-images"></i>
+            <h2>Feature two</h2>
+            <p>
+              Three techniques of paper prototyping used for usability testing
+              are comps, wireframes
+            </p>
+            <a href="#">Second link <i class="fa-solid fa-greater-than"></i></a>
+          </div>
+
+          <div class="feature">
+            <i class="fa-solid fa-circle-half-stroke"></i>
+            <h2>Feature three</h2>
+            <p>
+              Rapid prototyping involves a group of designers who each create a
+              paper prototype
+            </p>
+            <a href="#">Third link <i class="fa-solid fa-greater-than"></i></a>
+          </div>
+
+          <div class="feature">
+            <i class="fa-solid fa-droplet"></i>
+            <h2>Feature four</h2>
+            <p>
+              Functionality is similarly unimportant, but in this case are
+              closer to the final product
+            </p>
+            <a href="#">Fourth link <i class="fa-solid fa-greater-than"></i></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Info -->
+    <section class="info">
+      <div class="container">
+        <h2>Collecting information about the problem</h2>
+        <p>
+          In the context of information architecture, information is separate
+          from both knowledge and data, and lies nebulously between them.
+        </p>
+        <div class="box"></div>
+      </div>
+    </section>
+
+    <script>
+      const hamburger = document.querySelector(".hamburger-btn");
+      const menu = document.querySelector(".mobile-menu");
+
+      hamburger.addEventListener("click", () => {
+        menu.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>
