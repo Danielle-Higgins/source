@@ -15,3 +15,9 @@
 While building this site, I was focused on providing a simple UI with some level of responsiveness while also delivering a smooth user experience.
 
 ## Optimizations
+
+If/When I improve this project, I would like to make it a fully functional site where the links take you to separate pages.
+
+## Lessons Learned
+
+Separation of concerns. I learned how to use HTML and CSS to build fully responsie websites.
