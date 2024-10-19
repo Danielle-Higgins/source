@@ -1,6 +1,6 @@
 # Source: <a target="_blank" href="https://danielle-higgins.github.io/source/">Visit Here</a>
 
-<img src="https://github.com/Danielle-Higgins/source/blob/main/img/source-img.png">
+<img src="https://github.com/Danielle-Higgins/source/blob/main/img/source-preview.png">
 
 "Source helps creators do more of what they love." Source is a template site that is a state-of-the-art, fully responsive web application that redefines web design standards.
 
